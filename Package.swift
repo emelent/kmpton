@@ -23,6 +23,10 @@ let package = Package(
             dependencies: [],
             path: "Sources"
         ),
+        .binaryTarget(
+            name: "shared",
+            path: "./frameworks/shared.xcframework"
+        )
 
     ]
 )
